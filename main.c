@@ -134,7 +134,14 @@ static void read_directory(const char *dir, char **file_names) {
   return;
 }
 
+/*
+static void clone_file(const char *dir, const char *file_name, const char *new_file_name) {
+}
 
+
+static void write_json(const char *dir, const char *file_name, const cJSON *json ) {
+}
+*/
 
 
 int CJSON_CDECL main(int argc, char *argv[])
